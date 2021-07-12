@@ -5,13 +5,13 @@ import { Card, Button } from "react-bootstrap";
 const ProductContainer = () => {
   const data = dataJson.products;
 
-  const firstView = data.filter((elem) => elem.type === "Promociones");
+  const firstView = data.filter((elem) => elem.type === "Aceites");
   const [products, setProducts] = useState(firstView);
 
   const productsType = (option) => {
     // eslint-disable-next-line default-case
     switch (option) {
-      case "Promociones":
+      case "Aceites":
         const promotions = data.filter((elem) => elem.type === option);
         setProducts(promotions);
         break;
@@ -43,7 +43,7 @@ const ProductContainer = () => {
       <nav>
         <ul>
             <div>
-              <li onClick={() => productsType("Promociones")}>Promociones</li>
+              <li onClick={() => productsType("Aceites")}>Aceites</li>
               <li onClick={() => productsType("Abarrotes")}>Abarrotes</li>
               <li onClick={() => productsType("Frutas y verduras")}>
                 Frutas y verduras

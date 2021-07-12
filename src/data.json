@@ -2,170 +2,317 @@
     "products": [
       {
         "id": "1",
-        "name": "10 tarros de leche Gloria",
-        "price": 25,
-        "type": "Promociones",
-        "img":"https://i.pinimg.com/564x/f9/93/b4/f993b42301fe2f0972357a32ffe84c57.jpg"
+        "name": "ACEITE VEG.PRIMOR CORAZON 1LT 12BOT",
+        "price": 94.51,
+        "type": "Aceites",
+        "img":"img/capri 1lt.JPG"
       },
       {
         "id": "2",
-        "name": "2x1 aceites primor",
-        "price": 10,
-        "type": "Promociones",
+        "name": "ACEITE PRIMOR 500CC 24BOT",
+        "price": 92.19,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/92/c6/28/92c628ef8827ff77ee25df2b142d66e5.jpg"
       },
       {
         "id": "3",
-        "name": "Pack de jamón y queso",
-        "price": 7,
-        "type": "Promociones",
+        "name": "PRIMOR PREMIUM X 1LT",
+        "price": 83.45,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/f6/aa/b2/f6aab28aac516a7b31ea0bb08dc4cfb4.jpg"
       },
       {
         "id": "4",
-        "name": "Detergente 5kg - 25%dscto",
-        "price": 8,
-        "type": "Promociones",
+        "name": "PRIMOR CLASICO X 1LT",
+        "price": 75.75,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/d6/c7/3d/d6c73dfc60823bcbbb766836e13f3f50.jpg"
       },
       {
         "id": "5",
-        "name": "Arroz Costeño - 5kg",
-        "price": 21,
-        "type": "Abarrotes",
+        "name": "CIL X 1LT",
+        "price": 66.12,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/6b/6a/06/6b6a06f2e77150adc71aa8e717e6e16d.jpg"
       },
       {
         "id": "6",
-        "name": "Fideos Don Vittorio - 250gr",
-        "price": 1.70,
-        "type": "Abarrotes",
+        "name": "ACEITE FRIOL SOYA 1LT 12 BOT",
+        "price": 61.65,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/6b/6a/06/6b6a06f2e77150adc71aa8e717e6e16d.jpg"
       },
       {
         "id": "7",
-        "name": "Azucar rubia Casagrande - 5kg",
-        "price": 15.50,
-        "type": "Abarrotes",
+        "name": "ACEITE COCINERO 500CC 24BOT",
+        "price": 77.21,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/14/72/89/147289c6bcedd515ccf17136166161fa.jpg"
       },
       {
         "id": "8",
-        "name": "Aceite vegetal Primor - 1kg",
-        "price": 11.60,
-        "type": "Abarrotes",
+        "name": "COCINERO X 1LT",
+        "price": 69.89,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/14/72/89/147289c6bcedd515ccf17136166161fa.jpg"
       },
       {
         "id": "9",
-        "name": "Fresa de Huaral x 1kg",
-        "price": 5,
-        "type": "Frutas y verduras",
+        "name": "CAPRI X 1LT",
+        "price": 78,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/76/0c/88/760c8894ae785cc452f717e03697d628.jpg"
       },
       {
         "id": "10",
-        "name": "Plátano seda x5 unid.",
-        "price": 2.60,
-        "type": "Frutas y verduras",
+        "name": "CIL 500CC",
+        "price": 74.90,
+        "type": "Aceites",
         "img":"https://i.pinimg.com/564x/76/0c/88/760c8894ae785cc452f717e03697d628.jpg"
       },
       {
         "id": "11",
-        "name": "Palta Fuerte x1kg",
-        "price": 7.49,
-        "type": "Frutas y verduras",
+        "name": "FILETE ATUN PRIMOR 170GR 48LTA",
+        "price": 204.33,
+        "type": "Conservas",
         "img":"https://i.pinimg.com/564x/d3/47/87/d34787d586c5caadf1c3dd98a8ee4faf.jpg"
       },
       {
         "id": "12",
-        "name": "Cebolla x 1kg",
-        "price": 2.49,
-        "type": "Frutas y verduras",
+        "name": "SOLIDO ATUN PRIMOR 170GR 48LTA",
+        "price": 194,
+        "type": "Conservas",
         "img":"https://i.pinimg.com/564x/d4/32/38/d43238bd5202104ce71c7b8782d9f7a0.jpg"
       },
       {
         "id": "13",
-        "name": "Carne de lomo fino x1kg",
-        "price": 15,
-        "type": "Congelados",
+        "name": "TROZOS ATUN PRIMOR 170GR 48LTA",
+        "price": 189.33,
+        "type": "Conservas",
         "img":"https://i.pinimg.com/564x/c0/23/68/c0236821653530cb2f152af290c158fb.jpg"
       },
       {
         "id": "14",
-        "name": "Pollo 1kg",
-        "price": 7,
-        "type": "Congelados",
+        "name": "DET.BOLIVAR CON SUAVIZANTE 500GR. 24BOL",
+        "price": 101.38,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/c0/23/68/c0236821653530cb2f152af290c158fb.jpg"
       },
       {
         "id": "15",
-        "name": "Hamburguesas x1kg",
-        "price": 9.90,
-        "type": "Congelados",
+        "name": "DET.BOLIVAR CON SUAVIZANTE 350GR. 30BOL",
+        "price": 98.50,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/75/4d/97/754d97f851ea61deeee3310794785391.jpg"
       },
       {
         "id": "16",
-        "name": "Mariscos x1kg",
-        "price": 10,
-        "type": "Congelados",
+        "name": "DET.BOLIVAR TEC.ACTIVEDUO FL.500GR. 24BOL",
+        "price": 97.84,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/75/4d/97/754d97f851ea61deeee3310794785391.jpg"
       },
       {
         "id": "17",
-        "name": "Atún Campomar lata",
-        "price": 4.49,
-        "type": "Conservas",
+        "name": "DET.BOLIVAR TEC.ACTIVEDUO FL.350GR. 30BOL",
+        "price": 96.60,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "18",
-        "name": "Durazno 2 caballos lata",
-        "price": 8.79,
-        "type": "Conservas",
+        "name": "DET.MARSELLA ESENCIAS BOSQUE 500GR. 24BOL",
+        "price": 75.87,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "19",
-        "name": "Piña en lata",
-        "price": 5.90,
-        "type": "Conservas",
+        "name": "DET.MARSELLA PETALOS RELAJANTE 350GR. 30BOL",
+        "price": 69.10,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "20",
-        "name": "Champiñones lata",
-        "price": 3.79,
-        "type": "Conservas",
+        "name": "NUE DET.OPAL ULTRA C/QUITAMA 350GR. 30BOL",
+        "price": 85.86,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "21",
-        "name": "Pasta dental Colgate",
-        "price": 5.90,
-        "type": "Higiene",
+        "name": "NUE DET.OPAL ULTRA C/QUITAMA 500GR. 24BOL",
+        "price": 90.66,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "22",
-        "name": "Jabón Neko x3",
-        "price": 7.90,
-        "type": "Higiene",
+        "name": "DETERGENTE OPAL SPORT 800GR. 15BOL",
+        "price": 87.82,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "23",
-        "name": "Desodorante Rexona",
-        "price": 12.50,
-        "type": "Higiene",
+        "name": "DETERGENTE OPAL SPORT 500GR. 24BOL",
+        "price": 81.98,
+        "type": "Detergentes",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       },
       {
         "id": "24",
-        "name": "Papel higiénico x10 rollos",
-        "price": 12.90,
-        "type": "Higiene",
+        "name": "DETERGENTE OPAL SPORT 350GR. 30BOL",
+        "price": 77.10,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "DETEGENTE OPAL ADVANCE 4.5KG 4BOL",
+        "price": 129,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ADVANCE 800GR. 15BOL",
+        "price": 87.36,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ADVANCE 500GR. 24BOL",
+        "price": 81.47,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ADVANCE 350GR. 30BOL",
+        "price": 76.20,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ULTRA 1.5KG 8BOL",
+        "price": 90.48,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ULTRA 800GR 15BOL",
+        "price": 86.59,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ULTRA 2.6KG 7BOL",
+        "price": 142.95,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NUE DETERGENTE OPAL ULTRA 4.5KG 4BOL",
+        "price": 130.25,
+        "type": "Detergentes",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JABON MARSELLA FLORAL 220GR. 40BRR",
+        "price": 60.64,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JABON MARSELLA LIMON 220GR. 40BRR",
+        "price": 60,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JAB.BOLIV.PER.BLA.LIMON 210GR. 48BRR",
+        "price": 79.10,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JAB.BOLIVAR GENERACION BB 210GR. 48BRR",
+        "price": 79.03,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JAB.BOLIVAR.PER.BLA.FLORAL 210GR.48BRR",
+        "price": 79.01,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "JAB.BOLIV.ANTIBACTERIAL 210GR. 48BRR",
+        "price": 78.52,
+        "type": "Jabones",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "ALIANZA X 500GR",
+        "price": 27.93,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "FID.DON VITTORIO SPAGHETTI 500GR. 20BOL",
+        "price": 47.08,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NU.FID. DON VITTORIOCOD.RAY.250GR. 20BOL",
+        "price": 23.77,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "DON VITTORIO CABELLO DE ANGEL 250GR",
+        "price": 47.44,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NICOLINI X 500GR. TALLARIN",
+        "price": 29,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "NICOLINI X 500GR. SPAGHETTI",
+        "price": 29,
+        "type": "Pastas",
+        "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
+      },
+      {
+        "id": "24",
+        "name": "LAVAGGI TALLARIN 500GR",
+        "price": 35.99,
+        "type": "Pastas",
         "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
       }
     ]
