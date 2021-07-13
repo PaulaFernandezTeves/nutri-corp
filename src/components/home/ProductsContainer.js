@@ -24,7 +24,6 @@ export const ProductContainer = ({dispatch}) => {
     readAllProducts(cb);
   }, [type]);
 
-
   return (
     <section className="w-100 mt-4">
       <InputGroup className="mb-3 input-group m-auto" id="searchNancy">
