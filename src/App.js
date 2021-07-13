@@ -15,6 +15,8 @@ import {
 import Home from "./components/home/Home";
 import { ShoppingCart } from "./components/shopping/ShoppingCart";
 import { Login } from "./components/home/Login.js";
+import ClientMe from './components/shopping/ClientMe';
+import ClientOther from './components/shopping/ClienteOther';
 import { fb } from "./firebase/firebase";
 import React, { useState } from "react";
 
@@ -35,6 +37,8 @@ function App() {
         />
         <Route exact path="/productos" component={Home} />
         <Route path="/compras" component={ShoppingCart} />
+        <Route path="/clienteyo" component={ClientMe} />
+        <Route path="/clienteotro" component={ClientOther} />
       </Switch>
     </Router>
   );
