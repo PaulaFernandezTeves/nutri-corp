@@ -13,35 +13,31 @@ import { FormControl, InputGroup } from "react-bootstrap";
 export const ProductContainer = () => {
   const data = dataJson.products;
 
-  const firstView = data.filter((elem) => elem.type === "Promociones");
+  const firstView = data.filter((elem) => elem.type === "Aceites");
   const [products, setProducts] = useState(firstView);
 
   const productsType = (option) => {
     // eslint-disable-next-line default-case
     switch (option) {
-      case "Promociones":
-        const promotions = data.filter((elem) => elem.type === option);
-        setProducts(promotions);
-        break;
-      case "Abarrotes":
-        const abarrotes = data.filter((elem) => elem.type === option);
-        setProducts(abarrotes);
-        break;
-      case "Frutas y verduras":
-        const fruitsVeggie = data.filter((elem) => elem.type === option);
-        setProducts(fruitsVeggie);
-        break;
-      case "Congelados":
-        const frozen = data.filter((elem) => elem.type === option);
-        setProducts(frozen);
+      case "Aceites":
+        const aceites = data.filter((elem) => elem.type === option);
+        setProducts(aceites);
         break;
       case "Conservas":
-        const preserved = data.filter((elem) => elem.type === option);
-        setProducts(preserved);
+        const conservas = data.filter((elem) => elem.type === option);
+        setProducts(conservas);
         break;
-      case "Higiene":
-        const hygiene = data.filter((elem) => elem.type === option);
-        setProducts(hygiene);
+      case "Detergentes":
+        const detergentes = data.filter((elem) => elem.type === option);
+        setProducts(detergentes);
+        break;
+      case "Jabones":
+        const jabones = data.filter((elem) => elem.type === option);
+        setProducts(jabones);
+        break;
+      case "Pastas":
+        const pastas = data.filter((elem) => elem.type === option);
+        setProducts(pastas);
         break;
     }
   };
