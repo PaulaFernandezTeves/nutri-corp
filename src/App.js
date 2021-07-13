@@ -14,6 +14,8 @@ import {
 import Home from './components/home/Home';
 import { ShoppingCart } from './components/shopping/ShoppingCart';
 import { Login } from "./components/home/Login.js";
+import ClientMe from './components/shopping/ClientMe';
+import ClientOther from './components/shopping/ClienteOther';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route exact path="/" component={Login} />
         <Route exact path="/productos" component={Home} />
         <Route path="/compras" component={ShoppingCart} />
+        <Route path="/clienteyo" component={ClientMe} />
+        <Route path="/clienteotro" component={ClientOther} />
       </Switch>
     </Router>
   );
