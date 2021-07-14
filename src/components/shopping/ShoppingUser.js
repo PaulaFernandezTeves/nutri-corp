@@ -1,8 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import { Header } from "../Header";
 import { Form, InputGroup } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
+
+// import { Button, Modal } from "react-bootstrap";
+
 
 export const ShoppingUser = () => {
+  const history = useHistory();
+
+  // // MODAL
+  // const [show, setShow] = React.useState(false);
+
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
+  const [client, setClient] = useState({
+    name: "",
+    employee_code: "",
+    postal_code: "",
+  });
+
+  // const [grouClient, setGroupClient] = useState([]);
+
+  const handleClient = (e) => {
+    const value = e.target.value;
+    setClient({ ...client, [e.target.name]: value });
+  };
+
+  // const arrayClient = (e) => {
+  //   e.preventDefault();
+  //   if (client.name !== "") {
+  //     setGroupClient([...grouClient, client]);
+  //   }
+  // };
+
+  // const handleSubmit = () => {
+  //   setShow(true);
+  // };
+
   return (
     <>
       <Header />
@@ -24,6 +60,8 @@ export const ShoppingUser = () => {
               name="group1"
               type={type}
               id={`inline-${type}-1`}
+              checked
+              onChange={() => history.push('/usuario')}
             />
             <Form.Check
               inline
@@ -31,6 +69,7 @@ export const ShoppingUser = () => {
               name="group1"
               type={type}
               id={`inline-${type}-2`}
+              onChange={() => history.push('/cliente')}
             />
           </div>
         ))}
@@ -39,19 +78,31 @@ export const ShoppingUser = () => {
         <section className="inputNombre">
           <Form.Group controlId="formGroupName">
             <Form.Label>Nombre</Form.Label>
-            <Form.Control type="text" />
+            <Form.Control
+              type="text"
+              name="name"
+              onChange={(e) => handleClient(e)}
+            />
           </Form.Group>
         </section>
         <section className="inputCodeNumber">
           <Form.Group controlId="formGroupNumber">
             <Form.Label>Código de trabajador</Form.Label>
-            <Form.Control type="number" />
+            <Form.Control
+              type="number"
+              name="employee_code"
+              onChange={(e) => handleClient(e)}
+            />
           </Form.Group>
         </section>
         <section className="inputZoneNumber">
           <Form.Group controlId="formGroupNumber">
             <Form.Label>Código de zona</Form.Label>
-            <Form.Control type="number" />
+            <Form.Control
+              type="number"
+              name="postal_code"
+              onChange={(e) => handleClient(e)}
+            />
           </Form.Group>
         </section>
         <section className="paula-consultaCodigo">
@@ -63,11 +114,30 @@ export const ShoppingUser = () => {
           </InputGroup>
         </section>
         <section className="btnAgregar">
-          <button type="submit" className="btn btn-primary btn-block">
-            Agregar cliente
+          <button
+            type="submit"
+            className="btn btn-primary btn-block"
+            // onClick={handleSubmit()}
+          >
+            Finalizar pedido
           </button>
         </section>
       </Form>
+
+      {/* <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>¡Felicidades!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Tu pedido ha sido regitrado exitosamente y será descontado en tu
+          próxima planilla
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            ACEPTAR
+          </Button>
+        </Modal.Footer>
+      </Modal> */}
     </>
   );
 };

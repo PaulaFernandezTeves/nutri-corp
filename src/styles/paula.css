@@ -1,0 +1,84 @@
+
+.row{
+    background-color: #EE3038;
+    list-style: none;
+    left: 0;
+}
+
+.check-radio {
+    margin-left: 60px;
+    margin-top: 15px;
+  padding: 10px;
+  display: flex;
+
+}
+
+.paula-btn{
+    margin: 20px;
+    background-color: #EE3038;
+    border-color: #EE3038;
+    border-radius: 25px;
+    width: 40%;
+    font-weight: 15px;
+
+}
+
+.btn-finalizar{
+    background-color: #EE3038;
+    border-color: #EE3038;
+    border-radius: 10px;
+    width: 75%;
+    font-weight: 15px;
+    flex-direction: column;
+}
+  
+.inputNombre{  
+    margin: 10px;
+    padding: 5px;
+}
+
+.inputCodeNumber {
+    margin: 10px;
+    padding: 5px;
+}
+
+.inputZoneNumber {
+    margin: 10px;
+    padding: 5px;
+}
+
+.paula-consultaCodigo {
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.btnAgregar {
+    text-align: center;
+    align-content: center;
+}
+
+.btnAgregar button {
+    margin: 20px;
+    background-color: #EE3038;
+    border-color: #EE3038;
+    border-radius: 25px;
+    width: 75%;
+    font-weight: 15px;
+
+}
+
+.paula-listClientOther {
+    background-color: var(--primary-color);
+  color: var(--white-color);
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#pau-btn button{
+    border-radius: 45%;
+    background-color: #EE3038;
+    border: none;
+    outline: none;
+}

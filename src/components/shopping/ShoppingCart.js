@@ -4,7 +4,7 @@ import { Header } from "../Header";
 import { Card } from "react-bootstrap";
 
 export const ShoppingCart = ({location}) => {
-
+console.log(ShoppingCart)
   const arr = [];
   arr.push(location);
   const arrProducts = arr[0].state.listProducts

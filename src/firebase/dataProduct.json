@@ -134,7 +134,7 @@
     "name": "DET.Bolivar con Suavizante 500GR.",
     "price": 101.38,
     "dsctoPrice": 81.10,
-    "title": "",
+    "title": "Bolivar",
     "quantity": "24 BOL",
     "type": "Detergentes",
     "img":"https://i.pinimg.com/564x/c0/23/68/c0236821653530cb2f152af290c158fb.jpg"
@@ -240,7 +240,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "25":{
-    "id": "24",
+    "id": "25",
     "name": "Detergente OPAL Advance 4.5KG",
     "price": 129,
     "dsctoPrice": 103.20,
@@ -250,7 +250,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "26":{
-    "id": "24",
+    "id": "26",
     "name": "NUE Detergente OPAL Advance 800GR.",
     "price": 87.36,
     "dsctoPrice": 69.89,
@@ -260,7 +260,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "27":{
-    "id": "24",
+    "id": "27",
     "name": "NUE Detergente OPAL Advance 500GR.",
     "price": 81.47,
     "dsctoPrice": 65.18,
@@ -270,7 +270,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "28":{
-    "id": "24",
+    "id": "28",
     "name": "NUE Detergente OPAL Advance 350GR.",
     "price": 76.20,
     "dsctoPrice": 60.96,
@@ -280,7 +280,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "29":{
-    "id": "24",
+    "id": "29",
     "name": "NUE Detergente OPAL ultra 1.5KG",
     "price": 90.48,
     "dsctoPrice": 72.39,
@@ -290,7 +290,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "30":{
-    "id": "24",
+    "id": "30",
     "name": "NUE Detergente OPAL ultra 800GR",
     "price": 86.59,
     "dsctoPrice": 69.27,
@@ -300,7 +300,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "31":{
-    "id": "24",
+    "id": "31",
     "name": "NUE Detergente OPAL ultra 2.6KG",
     "price": 142.95,
     "dsctoPrice": 114.36,
@@ -310,7 +310,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "32":{
-    "id": "24",
+    "id": "31",
     "name": "NUE Detergente OPAL ultra 4.5KG",
     "price": 130.25,
     "dsctoPrice": 104.20,
@@ -320,7 +320,7 @@
     "img":"https://i.pinimg.com/564x/11/fe/9a/11fe9a0abf5af770b36dc757ce96aed5.jpg"
   },
   "33":{
-    "id": "24",
+    "id": "33",
     "name": "Jabon Marsella Floral 220GR.",
     "price": 60.64,
     "dsctoPrice": 48.51,

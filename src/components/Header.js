@@ -29,7 +29,7 @@ export const Header = (props) => {
             <h3>Hola! Usuario</h3>
             <Link to="/productos">🏠 Inicio</Link>
             <Link exact to="/compras">
-              🛒 Carrito de compras
+            <button onClick={goShoppingView}>🛒 </button>
             </Link>
             <Link exact to="/">
               ↩ Cerrar sesión

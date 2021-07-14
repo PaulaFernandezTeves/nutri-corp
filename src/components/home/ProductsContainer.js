@@ -105,7 +105,7 @@ export const ProductContainer = ({ dispatch }) => {
       </section>
       <article id="merywrap" className="w-100 d-flex ">
         {productCategory.map((product) => (
-          <CardProduct dispatch={dispatch} product={product} />
+          <CardProduct dispatch={dispatch} product={product} key={product.name} />
         ))}
       </article>
     </section>

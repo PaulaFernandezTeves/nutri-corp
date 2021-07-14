@@ -10,7 +10,7 @@ export const CardProduct = (props) => {
     SetAddPdto(false);
   };
 
-  const fnChosenProduct = (objProduct) => {
+  const fnChosenProduct = (objProduct, number) => {
     SetAddPdto(true);
     const objectChosenProduct = {
       id: objProduct.id,
@@ -21,7 +21,7 @@ export const CardProduct = (props) => {
       quantity: objProduct.quantity,
       type: objProduct.type,
       img: objProduct.img,
-      qty: "",
+      qty: number,
     };
     props.dispatch({ type: "addProduct", newState: objectChosenProduct });
   };
