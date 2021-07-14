@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Header } from "../Header";
-import { Form, InputGroup, Table, Button, Modal } from "react-bootstrap";
+import { Form, InputGroup, Table,} from "react-bootstrap";
 import { useHistory } from "react-router-dom";
-import { ModalClient } from '../home/ModalClient';
+import { ModalClient } from "./ModalClient";
 
 export const ShoppingClient = () => {
+
   const history = useHistory();
+
   const [client, setClient] = useState({
     name: "",
     employee_code: "",
@@ -26,16 +28,14 @@ export const ShoppingClient = () => {
     }
   };
 
-  // MODAL
-
   return (
     <>
       <Header />
       <section className="bri-containerSaldo">
         <i>⬅</i>
-        <p>
+        {/* <p>
           Saldo disponible: <b>S/50.00</b>
-        </p>
+        </p> */}
       </section>
       <section className="bri-containerDescription">
         <h6>Cliente</h6>
@@ -49,7 +49,7 @@ export const ShoppingClient = () => {
               name="group1"
               type={type}
               id={`inline-${type}-1`}
-              onChange={() => history.push('/usuario')}
+              onChange={() => history.push("/usuario")}
             />
             <Form.Check
               inline
@@ -58,7 +58,7 @@ export const ShoppingClient = () => {
               type={type}
               id={`inline-${type}-2`}
               checked
-              onChange={() => history.push('/cliente')}
+              onChange={() => history.push("/cliente")}
             />
           </div>
         ))}
@@ -98,7 +98,7 @@ export const ShoppingClient = () => {
           <InputGroup className="mb-3 input-group m-auto">
             <p className="mb-0">Consulta el código de zona</p>
             <InputGroup.Text className="border-0 bg-transparent text-danger">
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </InputGroup.Text>
           </InputGroup>
         </section>
@@ -108,7 +108,7 @@ export const ShoppingClient = () => {
             className="btn btn-primary btn-block"
             onClick={(e) => arrayClient(e)}
           >
-            Agregar cliente
+            <b>Agregar cliente</b>
           </button>
         </section>
       </Form>
@@ -130,7 +130,7 @@ export const ShoppingClient = () => {
                 <td>{user.employee_code}</td>
                 <td>{user.postal_code}</td>
                 <td>
-                  <i class="fas fa-edit"></i>
+                  <i className="fas fa-edit"></i>
                 </td>
                 <td
                   onClick={() =>
@@ -141,31 +141,13 @@ export const ShoppingClient = () => {
                     )
                   }
                 >
-                  <i class="fas fa-trash-alt"></i>
+                  <i className="fas fa-trash-alt"></i>
                 </td>
               </tr>
             ))}
           </tbody>
         </Table>
-        {/* <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
-        </Button>
-
-        <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>¡Felicidades!</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            Tu pedido ha sido regitrado exitosamente y será descontado en tu
-            próxima planilla
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="primary" onClick={handleClose}>
-              ACEPTAR
-            </Button>
-          </Modal.Footer>
-        </Modal>*/}
-        <ModalClient /> 
+        <ModalClient />
       </section>
     </>
   );

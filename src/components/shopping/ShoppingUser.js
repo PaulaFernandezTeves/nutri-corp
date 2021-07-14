@@ -7,13 +7,13 @@ import { useHistory } from "react-router-dom";
 
 
 export const ShoppingUser = () => {
-  const history = useHistory();
-
   // // MODAL
   // const [show, setShow] = React.useState(false);
 
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
+
+  const history = useHistory();
 
   const [client, setClient] = useState({
     name: "",
@@ -28,25 +28,14 @@ export const ShoppingUser = () => {
     setClient({ ...client, [e.target.name]: value });
   };
 
-  // const arrayClient = (e) => {
-  //   e.preventDefault();
-  //   if (client.name !== "") {
-  //     setGroupClient([...grouClient, client]);
-  //   }
-  // };
-
-  // const handleSubmit = () => {
-  //   setShow(true);
-  // };
-
   return (
     <>
       <Header />
       <section className="bri-containerSaldo">
         <i>⬅</i>
-        <p>
+        {/* <p>
           Saldo disponible: <b>S/50.00</b>
-        </p>
+        </p> */}
       </section>
       <section className="bri-containerDescription">
         <h6>Cliente</h6>
@@ -61,7 +50,7 @@ export const ShoppingUser = () => {
               type={type}
               id={`inline-${type}-1`}
               checked
-              onChange={() => history.push('/usuario')}
+              onChange={() => history.push("/usuario")}
             />
             <Form.Check
               inline
@@ -69,7 +58,7 @@ export const ShoppingUser = () => {
               name="group1"
               type={type}
               id={`inline-${type}-2`}
-              onChange={() => history.push('/cliente')}
+              onChange={() => history.push("/cliente")}
             />
           </div>
         ))}
@@ -109,7 +98,7 @@ export const ShoppingUser = () => {
           <InputGroup className="mb-3 input-group m-auto">
             <p className="mb-0">Consulta el código de zona</p>
             <InputGroup.Text className="border-0 bg-transparent text-danger">
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </InputGroup.Text>
           </InputGroup>
         </section>
@@ -119,7 +108,7 @@ export const ShoppingUser = () => {
             className="btn btn-primary btn-block"
             // onClick={handleSubmit()}
           >
-            Finalizar pedido
+            <b>Finalizar pedido</b>
           </button>
         </section>
       </Form>
